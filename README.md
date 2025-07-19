@@ -1,14 +1,20 @@
-CSV to JTable Viewer (Java Swing)
+# CSV to JTable Viewer (Java Swing)
 
-A Java Swing application that reads a CSV file and displays the data in a scrollable JTable.
+A Java Swing application that reads a CSV file and displays the data in a scrollable JTable.  
+It also builds a `HashMap<String, ArrayList<String>>` from the CSV file, where each key is a column header and the corresponding value is a list of all values under that column.
 
-## Features
+---
 
-- Reads data from `.csv` file
-- Displays in a well-formatted `JTable`
-- Custom font, borders, and layout
-- Confirmation dialog on exit
-- Modular and readable code
+## ✨ Features
+
+- ✅ Reads CSV file (row-wise)
+- ✅ Displays the data using `JTable` with proper fonts, borders, and scrollbars
+- ✅ Builds a column-wise `HashMap` with headers as keys
+- ✅ Modular code: file reading, table display, and data processing separated
+- ✅ Exit confirmation dialog on window close
+- ✅ Graceful handling of file not found
+
+---
 
 ## Requirements
 
